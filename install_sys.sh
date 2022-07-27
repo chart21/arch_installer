@@ -125,6 +125,7 @@ if [ "$uefi" = 1 ]; then
 fi
 
 # Install Arch Linux! Glory and fortune!
+pacman -Sy archlinux-keyring
 pacstrap /mnt base base-devel linux linux-firmware
 genfstab -U /mnt >> /mnt/etc/fstab
 

@@ -75,7 +75,7 @@ echo "$packages" | while read -r line; do
     fi
 done
 
-echo "%wheel ALL=(ALL) ALL" >> /etc/sudoers
+echo "%wheel ALL=(ALL:ALL) NOPASSWD: ALL" >> /etc/sudoers
 
 # Don't forget to replace "chart21" by the username of your Github account
 curl https://raw.githubusercontent.com/chart21\
