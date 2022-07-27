@@ -26,7 +26,8 @@ apps=("essential" "Essentials" on
       "firefox" "Firefox (browser)" off
       "js" "JavaScript tooling" off
       "qutebrowser" "Qutebrowser (browser)" off
-      "lynx" "Lynx (browser)" off)
+      "lynx" "Lynx (browser)" off
+      "zathura" "Zathura (PDF Viewer)" off)
 
 dialog --checklist \
 "You can now choose what group of application you want to install. \n\n\
