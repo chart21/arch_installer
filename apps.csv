@@ -31,6 +31,7 @@ zsh,zsh-completions,Additional completions for Zsh
 zsh,zsh-syntax-highlighting,Syntax highlighting for ZSH
 zsh,zsh-autosuggestions-git,Suggestions for ZSH
 zsh,lf-git,Terminal File Manager
+zsh,zsh-you-should-use,Alias suggestions
 neovim,neovim,Editor... and much more
 neovim,python-neovim,Python for neovim
 neovim,python2-neovim,Python2 for neovim (AUR)

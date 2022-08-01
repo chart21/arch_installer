@@ -75,6 +75,9 @@ echo "$packages" | while read -r line; do
     fi
 done
 
+#installing colorls icons
+gem install colorls
+
 echo "%wheel ALL=(ALL:ALL) NOPASSWD: ALL" >> /etc/sudoers
 
 # Don't forget to replace "chart21" by the username of your Github account
